@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mymath.dir/sourses/main.cpp.o CMakeFiles/mymath.dir/sourses/bigint.cpp.o -o mymath 

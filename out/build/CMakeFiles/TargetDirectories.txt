@@ -1,0 +1,5 @@
+/home/vch7lv/Projects/my_math/out/build/CMakeFiles/edit_cache.dir
+/home/vch7lv/Projects/my_math/out/build/CMakeFiles/rebuild_cache.dir
+/home/vch7lv/Projects/my_math/out/build/my_math/CMakeFiles/mymath.dir
+/home/vch7lv/Projects/my_math/out/build/my_math/CMakeFiles/edit_cache.dir
+/home/vch7lv/Projects/my_math/out/build/my_math/CMakeFiles/rebuild_cache.dir
