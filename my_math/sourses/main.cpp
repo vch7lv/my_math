@@ -7,7 +7,7 @@ typedef polynomial<long double> pol;
 
 int main()
 {
-	pol a = { 1,2,333 };
+	pol a = { 1,2,32342333 };
 	cout << a;
 	int b;
 	cin >> b;
