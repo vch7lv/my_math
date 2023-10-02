@@ -1,0 +1,10 @@
+#pragma once
+#include <iostream>
+#include <iomanip>
+#include "bigint.h"
+#include "polynomial.h"
+#include "numerical_methods.h"
+#include "matrix.h"
+#include <math.h>
+#include "complex.h"
+#include <functional>

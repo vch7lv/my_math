@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/vyach/OneDrive/Desktop/Projects/my_math/my_math/CMakeLists.txt
+  main.cpp
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(194,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\main.cpp(11,7): message : see reference to function template instantiation 'std::ostream &operator <<<long double>(std::ostream &,const polynomial<long double> &)' being compiled
+  bigint.cpp
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(25,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(39,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(54,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(67,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(118,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(209,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  mymath.vcxproj -> C:\Users\vyach\OneDrive\Desktop\Projects\my_math\out\build\my_math\Debug\mymath.exe

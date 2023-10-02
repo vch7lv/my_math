@@ -1,0 +1,3 @@
+C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/my_math/CMakeFiles/mymath.dir

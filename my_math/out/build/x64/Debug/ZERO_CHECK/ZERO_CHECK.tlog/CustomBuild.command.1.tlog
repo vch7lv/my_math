@@ -1,0 +1,10 @@
+^C:\USERS\VYACH\ONEDRIVE\DESKTOP\PROJECTS\MY_MATH\OUT\BUILD\CMAKEFILES\D84872A82865781839A047CEB6926C87\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vyach/OneDrive/Desktop/Projects/my_math -BC:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/mymath.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

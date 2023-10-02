@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\numerical_methods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B9F0637B-8DF9-35B7-90B4-6E3534AA3B67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CBB38489-02EA-3DF4-BF3B-AA21DF8426DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
