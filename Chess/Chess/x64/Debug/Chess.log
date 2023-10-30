@@ -1,8 +1,0 @@
-﻿  gui.cpp
-C:\Users\vyach\OneDrive\Desktop\Projects\Chess\Chess\gui.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\vyach\OneDrive\Desktop\Projects\Chess\Chess\gui.h(15,12): error C2433: 'gui': 'friend' not permitted on data declarations
-C:\Users\vyach\OneDrive\Desktop\Projects\Chess\Chess\gui.h(15,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  main.cpp
-C:\Users\vyach\OneDrive\Desktop\Projects\Chess\Chess\gui.h(15,12): error C2433: 'gui': 'friend' not permitted on data declarations
-C:\Users\vyach\OneDrive\Desktop\Projects\Chess\Chess\gui.h(15,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  Generating Code...

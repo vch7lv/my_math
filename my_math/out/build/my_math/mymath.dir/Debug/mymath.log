@@ -1,13 +1,16 @@
-﻿  Building Custom Rule C:/Users/vyach/OneDrive/Desktop/Projects/my_math/my_math/CMakeLists.txt
-  main.cpp
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(194,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\main.cpp(11,7): message : see reference to function template instantiation 'std::ostream &operator <<<long double>(std::ostream &,const polynomial<long double> &)' being compiled
-  bigint.cpp
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(25,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(39,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(54,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(67,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(118,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\bigint.cpp(209,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+﻿  main.cpp
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(128,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(122,14): message : while compiling class template member function 'polynomial<long double> &polynomial<long double>::operator -=(const polynomial<long double> &)'
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(248,6): message : see the first reference to 'polynomial<long double>::operator -=' in 'operator /'
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\main.cpp(11,6): message : see reference to class template instantiation 'polynomial<long double>' being compiled
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(129,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(145,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(93,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(87,14): message : while compiling class template member function 'polynomial<long double> &polynomial<long double>::operator +=(const polynomial<long double> &)'
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(249,8): message : see the first reference to 'polynomial<long double>::operator +=' in 'operator /'
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(94,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(110,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(56,28): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(54,6): message : while compiling class template member function 'int polynomial<long double>::dim(void) const'
+C:\Users\vyach\OneDrive\Desktop\Projects\my_math\my_math\sourses\polynomial.h(285,3): message : see the first reference to 'polynomial<long double>::dim' in 'operator <<'
   mymath.vcxproj -> C:\Users\vyach\OneDrive\Desktop\Projects\my_math\out\build\my_math\Debug\mymath.exe

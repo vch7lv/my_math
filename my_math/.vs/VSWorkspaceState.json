@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\my_math",
+    "\\my_math\\sourses"
+  ],
+  "SelectedNode": "\\my_math\\sourses\\matrix.h",
+  "PreviewInSolutionExplorer": false
+}

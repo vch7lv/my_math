@@ -37,7 +37,7 @@ struct vec
 		if (v2.col.size() != col.size())
 		{
 			throw(std::exception("wrong dim while sum vec"));
-			return;
+			return *this;
 		}
 		for (int i = 0; i < col.size(); ++i)
 			col[i] += v2[i];
@@ -54,7 +54,7 @@ struct vec
 		if (v2.col.size() != col.size())
 		{
 			throw(std::exception("wrong dim while sum vec"));
-			return;
+			return *this;
 		}
 		for (int i = 0; i < col.size(); ++i)
 			col[i] -= v2[i];

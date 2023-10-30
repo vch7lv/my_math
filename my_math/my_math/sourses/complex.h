@@ -53,11 +53,41 @@ struct complex
 
 };
 
+
+
+template <typename T>
+complex<T> operator + (complex<T> a, complex<T> b)
+{
+	return a += b;
+}
+
+template <typename T>
+complex<T> operator - (complex<T> a, complex<T> b)
+{
+	return a -= b;
+}
+
+template <typename T>
+complex<T> operator * (complex<T> a, complex<T> b)
+{
+	return a *= b;
+}
+
+template <typename T>
+complex<T> operator / (complex<T> a, complex<T> b)
+{
+	return a -= b;
+}
+
+
+
 template <typename T>
 T abs(complex<T> num)
 {
 	return num.abs();
 }
+
+
 
 template <typename T>
 std::ostream& operator << (std::ostream& stream, complex<T> num)

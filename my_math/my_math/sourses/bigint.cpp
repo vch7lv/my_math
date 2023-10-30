@@ -34,7 +34,7 @@ bigint::bigint(const std::string& str): sign(str[0] != '-')
 
 	for (int i = bottom; i < str.size(); ++i)
 		if (str[i] < '0' || str[i] > '9')
-			throw(std::exception("incorrect string for converting to bigint)"));
+			throw(std::exception());
 
 	for (int i = str.size() - 1; i >= bottom; i -= 9)
 		if (i >= 9 + bottom)
@@ -246,12 +246,12 @@ bigint operator*(const bigint& operand1, const bigint& operand2)
 	out.sign = operand1.sign == operand2.sign;
 	for (int i = 0; i < operand1.digits.size(); ++i)
 	{
-		unsigned __int64 carry = 0;
+		size_t carry = 0;
 		for (int j = 0; j < operand2.digits.size() || carry; ++j)
 		{
 			if (i + j + 1 > out.digits.size()) out.digits.push_back(0);
 			carry += ((i < operand1.digits.size() && j < operand2.digits.size()) ?
-				static_cast<__int64>(operand1.digits[i]) * operand2.digits[j] : 0) + out.digits[i + j];
+				static_cast<size_t>(operand1.digits[i]) * operand2.digits[j] : 0) + out.digits[i + j];
 			out.digits[i + j] = carry % operand1.base;
 			carry /= operand1.base;
 		}

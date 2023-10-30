@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 02.10.2023 17:05:11.
+      Сборка начата 02.10.2023 19:04:47.
       
       Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -51,7 +51,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.51
+      Прошло времени 00:00:00.49
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -77,7 +77,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 02.10.2023 17:05:12.
+      Сборка начата 02.10.2023 19:04:48.
       
       Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -104,7 +104,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.39
+      Прошло времени 00:00:00.37
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,8 +123,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-8n0dvw"
-      binary: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-8n0dvw"
+      source: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-vtu7yp"
+      binary: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-vtu7yp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -134,38 +134,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-8n0dvw'
+        Change Dir: 'C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-vtu7yp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c20fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9a73d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 02.10.2023 17:05:12.
+        Сборка начата 02.10.2023 19:04:48.
         
-        Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8n0dvw\\cmTC_c20fd.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vtu7yp\\cmTC_9a73d.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_c20fd.dir\\Debug\\".
-          Создание каталога "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8n0dvw\\Debug\\".
-          Создание каталога "cmTC_c20fd.dir\\Debug\\cmTC_c20fd.tlog\\".
+          Создание каталога "cmTC_9a73d.dir\\Debug\\".
+          Создание каталога "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vtu7yp\\Debug\\".
+          Создание каталога "cmTC_9a73d.dir\\Debug\\cmTC_9a73d.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_c20fd.dir\\Debug\\cmTC_c20fd.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_9a73d.dir\\Debug\\cmTC_9a73d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c20fd.dir\\Debug\\\\" /Fd"cmTC_c20fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a73d.dir\\Debug\\\\" /Fd"cmTC_9a73d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
           CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c20fd.dir\\Debug\\\\" /Fd"cmTC_c20fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a73d.dir\\Debug\\\\" /Fd"cmTC_9a73d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8n0dvw\\Debug\\cmTC_c20fd.exe" /INCREMENTAL /ILK:"cmTC_c20fd.dir\\Debug\\cmTC_c20fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-8n0dvw/Debug/cmTC_c20fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-8n0dvw/Debug/cmTC_c20fd.lib" /MACHINE:X64  /machine:x64 cmTC_c20fd.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_c20fd.vcxproj -> C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8n0dvw\\Debug\\cmTC_c20fd.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vtu7yp\\Debug\\cmTC_9a73d.exe" /INCREMENTAL /ILK:"cmTC_9a73d.dir\\Debug\\cmTC_9a73d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-vtu7yp/Debug/cmTC_9a73d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-vtu7yp/Debug/cmTC_9a73d.lib" /MACHINE:X64  /machine:x64 cmTC_9a73d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9a73d.vcxproj -> C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vtu7yp\\Debug\\cmTC_9a73d.exe
         FinalizeBuildStatus:
-          Файл "cmTC_c20fd.dir\\Debug\\cmTC_c20fd.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_c20fd.dir\\Debug\\cmTC_c20fd.tlog\\cmTC_c20fd.lastbuildstate".
-        Сборка проекта "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8n0dvw\\cmTC_c20fd.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_9a73d.dir\\Debug\\cmTC_9a73d.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_9a73d.dir\\Debug\\cmTC_9a73d.tlog\\cmTC_9a73d.lastbuildstate".
+        Сборка проекта "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vtu7yp\\cmTC_9a73d.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.38
+        Прошло времени 00:00:00.36
         
       exitCode: 0
   -
@@ -177,8 +177,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-3guz6i"
-      binary: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-3guz6i"
+      source: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-iac2sa"
+      binary: "C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-iac2sa"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -188,38 +188,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-3guz6i'
+        Change Dir: 'C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-iac2sa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_acc8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_25caa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 02.10.2023 17:05:13.
+        Сборка начата 02.10.2023 19:04:49.
         
-        Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3guz6i\\cmTC_acc8a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iac2sa\\cmTC_25caa.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_acc8a.dir\\Debug\\".
-          Создание каталога "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3guz6i\\Debug\\".
-          Создание каталога "cmTC_acc8a.dir\\Debug\\cmTC_acc8a.tlog\\".
+          Создание каталога "cmTC_25caa.dir\\Debug\\".
+          Создание каталога "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iac2sa\\Debug\\".
+          Создание каталога "cmTC_25caa.dir\\Debug\\cmTC_25caa.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_acc8a.dir\\Debug\\cmTC_acc8a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_25caa.dir\\Debug\\cmTC_25caa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_acc8a.dir\\Debug\\\\" /Fd"cmTC_acc8a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25caa.dir\\Debug\\\\" /Fd"cmTC_25caa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_acc8a.dir\\Debug\\\\" /Fd"cmTC_acc8a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25caa.dir\\Debug\\\\" /Fd"cmTC_25caa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3guz6i\\Debug\\cmTC_acc8a.exe" /INCREMENTAL /ILK:"cmTC_acc8a.dir\\Debug\\cmTC_acc8a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-3guz6i/Debug/cmTC_acc8a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-3guz6i/Debug/cmTC_acc8a.lib" /MACHINE:X64  /machine:x64 cmTC_acc8a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_acc8a.vcxproj -> C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3guz6i\\Debug\\cmTC_acc8a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iac2sa\\Debug\\cmTC_25caa.exe" /INCREMENTAL /ILK:"cmTC_25caa.dir\\Debug\\cmTC_25caa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-iac2sa/Debug/cmTC_25caa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyach/OneDrive/Desktop/Projects/my_math/out/build/CMakeFiles/CMakeScratch/TryCompile-iac2sa/Debug/cmTC_25caa.lib" /MACHINE:X64  /machine:x64 cmTC_25caa.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_25caa.vcxproj -> C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iac2sa\\Debug\\cmTC_25caa.exe
         FinalizeBuildStatus:
-          Файл "cmTC_acc8a.dir\\Debug\\cmTC_acc8a.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_acc8a.dir\\Debug\\cmTC_acc8a.tlog\\cmTC_acc8a.lastbuildstate".
-        Сборка проекта "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3guz6i\\cmTC_acc8a.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_25caa.dir\\Debug\\cmTC_25caa.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_25caa.dir\\Debug\\cmTC_25caa.tlog\\cmTC_25caa.lastbuildstate".
+        Сборка проекта "C:\\Users\\vyach\\OneDrive\\Desktop\\Projects\\my_math\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iac2sa\\cmTC_25caa.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.38
+        Прошло времени 00:00:00.37
         
       exitCode: 0
 ...

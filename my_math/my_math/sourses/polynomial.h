@@ -2,29 +2,28 @@
 #include <vector>
 #include <iostream>
 
-template <typename T>
-struct polynomial;
-
-template<typename T>
-std::ostream& operator<< (std::ostream& stream, const polynomial<T>& p);
 
 template <typename T>
 struct polynomial 
 {
+
 private:
+
 	std::vector<T> coef;
+
 public:
-	polynomial() : coef(std::vector<T>({ 0 })) {}
+
+	polynomial() : coef(std::vector<T>({0})) {}
 	polynomial(T num) : coef(std::vector<T>({ num })) {}
 	polynomial(const std::vector<T>& array) : coef(array) {}
 	polynomial(const polynomial& p) = default;
 	polynomial(std::initializer_list<T> list)
 	{
-		for (auto elem : list)
-			coef.push_back(elem);
+		for (auto it = list.end() - 1; it != list.begin(); --it)
+			coef.push_back(*it);
+		coef.push_back(*list.begin());
 	}
 	~polynomial() = default;
-
 
 	T operator()(T value) const
 	{
@@ -39,7 +38,7 @@ public:
 	{
 		return coef[i];
 	}
-	T operator[](int i) const
+	T operator[] (int i) const
 	{
 		return this->coef[i];
 	}
@@ -78,6 +77,7 @@ public:
 		}
 		return out;
 	}
+
 
 	polynomial& operator+=(T num)
 	{
@@ -181,40 +181,21 @@ public:
 		return *this;
 	}
 
-	friend std::ostream& operator<< <>(std::ostream& stream, const polynomial<T>& p);
+
 };
-	template<typename T>
-	std::ostream& operator<< (std::ostream& stream, const polynomial<T>& p)
-	{
-		if (p.coef.size() == 1)
-		{
-			stream << p.coef[0];
-			return stream;
-		}
-		for (int i = p.coef.size() - 1; i >= 0; --i)
-		{
-			if (p.coef[i] != 0)
-			{
-				if (p.coef[i] > 0 && i != p.coef.size() - 1)
-					stream << " + ";
-				if (p.coef[i] < 0 && p.coef[i] != 0)
-					stream << " - ";
-				if ((p.coef[i] != 1 && p.coef[i] != -1) || i == 0)
-					stream << abs(p.coef[i]);
-				if (i > 0)
-					stream << 'X';
-				if (i > 1)
-					stream << "^" << i;
-			}
-		}
-		return stream;
-	}
 
 	template<typename T>
 	polynomial<T> operator+(const polynomial<T>& p1, const polynomial<T>& p2)
 	{
 		polynomial<T> answer = p1;
 		return answer += p2;
+	}
+
+	template<typename T>
+	polynomial<T> operator+(const polynomial<T>& p1, T num)
+	{
+		polynomial<T> answer = p1;
+		return answer += num;
 	}
 
 	template<typename T>
@@ -225,9 +206,105 @@ public:
 	}
 
 	template<typename T>
+	polynomial<T> operator-(const polynomial<T>& p1, T num)
+	{
+		polynomial<T> answer = p1;
+		return answer -= num;
+	}
+
+	template<typename T>
 	polynomial<T> operator*(const polynomial<T>& p1, const polynomial<T>& p2)
 	{
 		polynomial<T> answer = p1;
 		return answer *= p2;
 	}
+
+	template<typename T>
+	polynomial<T> operator*(const polynomial<T>& p1, T num)
+	{
+		polynomial<T> answer = p1;
+		return answer *= num;
+	}
+
+	template<typename T>
+	polynomial<T> create_monomial(int dim, T coef = 1)
+	{
+		vector<T> coef_(dim + 1, 0);
+		coef_[dim] = coef;
+		return polynomial<T>(coef_);
+	}
+
+	template <typename T>
+	polynomial<T> operator / (polynomial<T> a, polynomial<T> b)
+	{
+		if (b.dim() == 0) return a * (1 / b[0]);
+
+		polynomial<T> out = T(0);
+		polynomial<T> tmp;
+
+		while (a.dim() >= b.dim())
+		{
+			tmp = create_monomial<T>(a.dim() - b.dim(), a[a.dim()] / b[b.dim()]);
+			a -= b * tmp;
+			out += tmp;
+		}
+
+		return out;
+	}
+
+	template <typename T>
+	polynomial<T> operator % (polynomial<T> a, polynomial<T> b)
+	{
+		if (b.dim() == 0) return 0;
+		polynomial<T> tmp;
+
+		while (a.dim() >= b.dim())
+		{
+			tmp = create_monomial<T>(a.dim() - b.dim(), a[a.dim()] / b[b.dim()]);
+			a -= b * tmp;
+		}
+
+		return a;
+	}
+
+
+	template <typename T>
+	polynomial<T> gcd(const polynomial<T>& a, const polynomial<T>& b)
+	{
+		polynomial<T> c = a % b;
+		if (c[0] == 0 && c.dim() == 0)
+			return a;
+		else
+			return gcd(b, c);
+	}
+
+
+	template<typename T>
+	std::ostream& operator<< (std::ostream& stream, const polynomial<T>& p)
+	{
+		if (p.dim() == 0)
+		{
+			stream << p[0];
+			return stream;
+		}
+		for (int i = p.dim(); i >= 0; --i)
+		{
+			if (p[i] != 0)
+			{
+				if (p[i] > 0 && i != p.dim())
+					stream << " + ";
+				if (p[i] < 0 && p[i] != 0)
+					stream << " - ";
+				if ((p[i] != 1 && p[i] != -1) || i == 0)
+					stream << abs(p[i]);
+				if (i > 0)
+					stream << 'X';
+				if (i > 1)
+					stream << "^" << i;
+			}
+		}
+		return stream;
+	}
+
+
 
